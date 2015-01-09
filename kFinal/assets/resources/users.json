@@ -1,0 +1,41 @@
+[
+    {
+        "user_id": "user1",
+        "first_name": "Prataksha",
+        "middle_name": "",
+        "last_name": "Gurung",
+        "gender": "male",
+        "role": "user",
+        "position": "staff",
+        "Contact": {
+            "phone": "1234567",
+            "email": "whatever@asdf.com"
+        }
+    },
+    {
+        "user_id": "user2",
+        "first_name": "Daniel",
+        "middle_name": "",
+        "last_name": "Rantala",
+        "gender": "male",
+        "role": "admin",
+        "position": "staff",
+        "Contact": {
+            "phone": "1234567",
+            "email": "whatever@asdf.com"
+        }
+    },
+    {
+        "user_id": "user3",
+        "first_name": "Tom",
+        "middle_name": "",
+        "last_name": "Jones",
+        "gender": "male",
+        "role": "admin",
+        "position": "manager",
+        "Contact": {
+            "phone": "1234567",
+            "email": "whatever@asdf.com"
+        }
+    }
+]
