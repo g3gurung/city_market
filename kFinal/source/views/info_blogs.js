@@ -22,8 +22,8 @@ enyo.kind({
                                 {name: "info_blog_title", classes: "info-blog-title"},
                                 {name: "info_blog_date", classes: "info-blog-date"},
                                 {name: "info_blog_container", classes: "info-blog-container", components: [
-                                        {name: "info_blog_img", kind: "ImageView", style:"height: 100%; width: 100%",
-                                            scale: "auto"},
+                                        {name: "info_blog_img", kind: "Image", style:"height: 100%; width: 100%",
+                                            scale: "auto", classes: "enyo-fit"},
                                         {name: "info_blog_content", style: "position: relative", allowHtml: true}
                                     ]
                                 }

@@ -467,7 +467,7 @@ enyo.kind({
             
     },
     fetchAppContent: function() {
-        this.socket = io.connect('pratakshavm.cloudapp.net');
+        this.socket = io.connect('localhost:3000');
         
         this.socket.on('newPostAvailable', enyo.bind(this, function(data) {
             
